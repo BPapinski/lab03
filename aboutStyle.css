@@ -8,10 +8,6 @@
     
 }
 
-.flex-item{
-    width: 100%;
-
-}
 
 label {
     background-color: #04AA6D
@@ -19,6 +15,22 @@ label {
 
 p{
     font-size: 20px;
+}
+
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.column {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+    flex: 1; /* Ustawienie elastycznego wzrostu */
+    text-align: center;
 }
 
 .form-item{
@@ -51,11 +63,28 @@ input{
     display: block;
     width: 115px;
     height: 25px;
-    background: #4E9CAF;
+    background:  antiquewhite;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
-    color: white;
+    color: black;
     font-weight: bold;
     line-height: 25px;
 }
+
+
+select {
+    background-color: white;
+    padding: 1px 2px 1px 2px;
+    margin: 0;
+    border: 2px solid rgb(219, 179, 134);
+    border-radius: 4px;
+    width: 50%;
+    height: 40px;
+    -webkit-appearance: none; /* Wyłącza domyślny styl przeglądarki */
+    -moz-appearance: none; /* Wyłącza domyślny styl dla Firefox */
+    appearance: none; /* Ogólna reguła */
+    
+}
+
+
